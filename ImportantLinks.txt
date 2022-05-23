@@ -1,0 +1,29 @@
+Big-O Cheat Sheet:
+https://www.bigocheatsheet.com/
+
+Hash table:
+https://en.wikipedia.org/wiki/Hash_table
+
+md5 Hash Generator:
+http://www.miraclesalad.com/webtools/md5.php
+
+Open Hashing:
+https://www.cs.usfca.edu/~galles/visualization/OpenHash.html
+
+LinkedList Visual Go:
+https://visualgo.net/en/list
+
+BINARY SEARCH TREE: 
+https://visualgo.net/en/bst
+
+Online JSON to Tree Diagram Converter:
+https://vanya.jp.net/vtree/
+
+BINARY HEAP:
+https://visualgo.net/en/heap
+
+Graph:
+https://visualgo.net/en/graphds
+
+
+
