@@ -1,0 +1,4 @@
+//Binary Search
+//Generally Linear search is like a slower but if your array is sorted and you want to find element faster in array then you should first find the mid element of Array then as your array is already short it too if you find the mid element of an array then you can reject all the left element which is low or whatever the elements you wanted to direct the beginner lower one and then you can easily go left and right and you can easily find what you are looking for faster by dividing your operation by 2
+
+//If you have binary tree we then it as we now searching will work like divide and conquer and when we do the insertion in binary tree it always insert in some order in the left it will be the smaller element in the right it will be the bigger element so always we can traverse and we can find element quicker than the Linear search so we donate to traverse to the whole nodes
