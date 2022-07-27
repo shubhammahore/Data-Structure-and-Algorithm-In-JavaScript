@@ -10,6 +10,8 @@ function mergeSort(array){
     let middle = Math.floor(lengthOfArray/2);
     const left = array.slice(0,middle);
     const right = array.slice(middle);
+    //console.log("Middle Index : "+middle);
+    //console.log("---------------");
     //console.log(middle);
     // let left = [];
     // let right = [];
@@ -20,14 +22,20 @@ function mergeSort(array){
     //     right.push(array[j]);
     // }
     // console.log(array);
-    console.log('left',left);
-    console.log('right',right);
+    // console.log('left',left);
+    // console.log('right',right);
     //return arr1;
+    // let leftMerged = mergeSort(left);
+    // let rightMerged = mergeSort(right);
+    // return merge(leftMerged,rightMerged);
     return merge(
         mergeSort(left),mergeSort(right)
     )
 }
 function merge(left, right){
+    console.log("---------------------------");
+    console.log('left:',left);
+    console.log('right:',right);
     const result = [];
     let leftIndex = 0;
     let rightIndex = 0;
@@ -41,8 +49,13 @@ function merge(left, right){
             rightIndex++;
         }
     }
+  
+    console.log("result before slicing:",result);
+    console.log("slicing left:",left.slice(leftIndex));
+    console.log("slicing right:",right.slice(rightIndex));
+    console.log("result:",result.concat(left.slice(leftIndex)).concat(right.slice(rightIndex)));
     return result.concat(left.slice(leftIndex)).concat(right.slice(rightIndex));
 }
 
 const answer = mergeSort(numbers);
-console.log(answer);
+console.log("Answer: ",answer);
