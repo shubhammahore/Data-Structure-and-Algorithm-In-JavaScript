@@ -86,8 +86,9 @@ keys() {
 // console.log(myHashTable.get('apples'))
 const myHashTable = new HashTable(50);
 myHashTable.set('grapes', 10000)
-myHashTable.set('grapes', 10000)
-myHashTable.get('grapes')
+myHashTable.set('orange', 9990)
+console.log(myHashTable.get('grapes'))
+console.log(myHashTable.get('orange'))
 myHashTable.set('apples', 9)
-myHashTable.get('apples')
+console.log(myHashTable.get('apples'))
 console.log(myHashTable.keys())
