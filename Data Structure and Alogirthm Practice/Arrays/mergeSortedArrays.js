@@ -19,7 +19,7 @@ const mergeSortedArrays2 = (array1,array2) => {
         }
         else{
             mergedArray.push(array2Item);
-            array2Item = array2[j];
+            array2Item = array2[j];       
             j++;
         }
     }
