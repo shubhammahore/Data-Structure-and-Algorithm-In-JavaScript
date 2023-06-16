@@ -167,7 +167,8 @@ class BinarySearchTree{
         if(!queue.length){
             return list;
         }
-        let currentNode = this.queue.shift();
+        let currentNode = queue.shift();
+        list.push(currentNode.value);
         console.log(currentNode.value)
         if(currentNode.left){
             queue.push(currentNode.left);
@@ -188,12 +189,12 @@ tree.insert(170);
 tree.insert(15);
 tree.insert(1);
 //tree.remove(15);
-tree.breadthFirstSearch();
-tree.breadthFirstSearchR(tree.root, []);
-
+//tree.breadthFirstSearch();
+let res = tree.breadthFirstSearchR([tree.root], []);
+console.log(res)
 //console.log(tree.lookup(170));
 //JSON.stringify(traverse(tree.root));
-console.log(JSON.stringify(traverse(tree.root)));
+//console.log(JSON.stringify(traverse(tree.root)));
 //      9
 //  4       20
 //1   6   15  170
