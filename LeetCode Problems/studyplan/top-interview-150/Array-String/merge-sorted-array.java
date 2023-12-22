@@ -1,9 +1,9 @@
-class Solution {
+class MergeSortedArray {
     public static void main(String[] args) {
         int[] nums1 = {1,2,3,0,0,0};
         int[] nums2 = {2,5,6};
         int m =3,n=3;
-        new Solution().merge(nums1, m, nums2, n);
+        new MergeSortedArray().merge(nums1, m, nums2, n);
         for (int i : nums1) {
             System.out.println(i);
         }
